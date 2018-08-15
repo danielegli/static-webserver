@@ -1,0 +1,23 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Basic file serving webserver",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielegli/static-webserver.git"
+  },
+  "author": "Daniel Egli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielegli/static-webserver/issues"
+  },
+  "homepage": "https://github.com/danielegli/static-webserver#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
